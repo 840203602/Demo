@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E6B6B579ABA24E4EA47A8D /* Pods_MTGSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E25C70B3424DA8D0A628155 /* Pods_MTGSDKDemo.framework */; };
+		1811526F1FC84D96000FFBF2 /* MTGNativeAdsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811526C1FC84D95000FFBF2 /* MTGNativeAdsViewCell.xib */; };
+		181152701FC84D96000FFBF2 /* MTGNativeAdsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811526D1FC84D96000FFBF2 /* MTGNativeAdsViewCell.m */; };
+		18241BFE1F04AEF7000B393B /* MTGNativeVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18241BFC1F04AEF7000B393B /* MTGNativeVideo.storyboard */; };
+		18241C041F04FF74000B393B /* star-lighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 18241C021F04FF74000B393B /* star-lighted.png */; };
+		185EA0FB1F04AB8200A69B2B /* MTGNativeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA0F51F04AB8200A69B2B /* MTGNativeVideoCell.m */; };
+		185EA0FC1F04AB8200A69B2B /* MTGNativeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185EA0F61F04AB8200A69B2B /* MTGNativeVideoCell.xib */; };
+		185EA0FD1F04AB8200A69B2B /* MTGNativeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EA0F81F04AB8200A69B2B /* MTGNativeVideoViewController.m */; };
+		186C62991FBB045600A0A096 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 186C62981FBB045600A0A096 /* icon.png */; };
+		189DC18B209AECE900A257AB /* MTGGDPRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189DC18A209AECE900A257AB /* MTGGDPRViewController.m */; };
+		189DC1BC209C3AA000A257AB /* MTGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189DC1BB209C3AA000A257AB /* MTGMainViewController.m */; };
+		49F9AB7A229FC30600EA7412 /* BiddingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9AB79229FC30500EA7412 /* BiddingViewController.m */; };
+		49F9AB7D229FC58E00EA7412 /* MTGBidRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9AB7C229FC58E00EA7412 /* MTGBidRewardVideoViewController.m */; };
+		49F9AB80229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9AB7F229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.m */; };
+		49F9AB83229FC62A00EA7412 /* MTGBidNativeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9AB82229FC62A00EA7412 /* MTGBidNativeVideoViewController.m */; };
+		4FE9AB401EC4873B0019C427 /* MTGInsterstialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9AB3A1EC4873B0019C427 /* MTGInsterstialViewController.m */; };
+		4FE9AB421EC4873B0019C427 /* MTGRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9AB3E1EC4873B0019C427 /* MTGRewardVideoViewController.m */; };
+		A0183F7E20C02CA200F4EC3D /* MTGInterActiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0183F7C20C02CA100F4EC3D /* MTGInterActiveViewController.m */; };
+		A0518B9B20902E70006DA0E9 /* MTGInsterstialVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0518B9920902E70006DA0E9 /* MTGInsterstialVideoViewController.m */; };
+		AD17AF282358323900CD5A03 /* MTGBidBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD17AF262358323900CD5A03 /* MTGBidBannerAdViewController.m */; };
+		AD6B4EF422F97A1B00E574AA /* MTGBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6B4EF222F97A1A00E574AA /* MTGBannerAdViewController.m */; };
+		F42FFB581BFB2A3C006231BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F42FFB571BFB2A3C006231BB /* main.m */; };
+		F42FFB5B1BFB2A3C006231BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F42FFB5A1BFB2A3C006231BB /* AppDelegate.m */; };
+		F42FFB5E1BFB2A3C006231BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42FFB5D1BFB2A3C006231BB /* ViewController.m */; };
+		F42FFB611BFB2A3C006231BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42FFB5F1BFB2A3C006231BB /* Main.storyboard */; };
+		F42FFB631BFB2A3C006231BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42FFB621BFB2A3C006231BB /* Assets.xcassets */; };
+		F42FFB661BFB2A3C006231BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42FFB641BFB2A3C006231BB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1811526C1FC84D95000FFBF2 /* MTGNativeAdsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTGNativeAdsViewCell.xib; sourceTree = "<group>"; };
+		1811526D1FC84D96000FFBF2 /* MTGNativeAdsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGNativeAdsViewCell.m; sourceTree = "<group>"; };
+		1811526E1FC84D96000FFBF2 /* MTGNativeAdsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGNativeAdsViewCell.h; sourceTree = "<group>"; };
+		18241BFD1F04AEF7000B393B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MTGNativeVideo.storyboard; sourceTree = "<group>"; };
+		18241C021F04FF74000B393B /* star-lighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-lighted.png"; sourceTree = "<group>"; };
+		185EA0F41F04AB8200A69B2B /* MTGNativeVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGNativeVideoCell.h; sourceTree = "<group>"; };
+		185EA0F51F04AB8200A69B2B /* MTGNativeVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGNativeVideoCell.m; sourceTree = "<group>"; };
+		185EA0F61F04AB8200A69B2B /* MTGNativeVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTGNativeVideoCell.xib; sourceTree = "<group>"; };
+		185EA0F71F04AB8200A69B2B /* MTGNativeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGNativeVideoViewController.h; sourceTree = "<group>"; };
+		185EA0F81F04AB8200A69B2B /* MTGNativeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGNativeVideoViewController.m; sourceTree = "<group>"; };
+		186C62981FBB045600A0A096 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		189DC189209AECE900A257AB /* MTGGDPRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGGDPRViewController.h; sourceTree = "<group>"; };
+		189DC18A209AECE900A257AB /* MTGGDPRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGGDPRViewController.m; sourceTree = "<group>"; };
+		189DC1BA209C3AA000A257AB /* MTGMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGMainViewController.h; sourceTree = "<group>"; };
+		189DC1BB209C3AA000A257AB /* MTGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGMainViewController.m; sourceTree = "<group>"; };
+		49F9AB78229FC30500EA7412 /* BiddingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiddingViewController.h; sourceTree = "<group>"; };
+		49F9AB79229FC30500EA7412 /* BiddingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiddingViewController.m; sourceTree = "<group>"; };
+		49F9AB7B229FC58E00EA7412 /* MTGBidRewardVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGBidRewardVideoViewController.h; sourceTree = "<group>"; };
+		49F9AB7C229FC58E00EA7412 /* MTGBidRewardVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGBidRewardVideoViewController.m; sourceTree = "<group>"; };
+		49F9AB7E229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGBidInsterstialVideoViewController.h; sourceTree = "<group>"; };
+		49F9AB7F229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGBidInsterstialVideoViewController.m; sourceTree = "<group>"; };
+		49F9AB81229FC62A00EA7412 /* MTGBidNativeVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTGBidNativeVideoViewController.h; sourceTree = "<group>"; };
+		49F9AB82229FC62A00EA7412 /* MTGBidNativeVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGBidNativeVideoViewController.m; sourceTree = "<group>"; };
+		4FE9AB391EC4873B0019C427 /* MTGInsterstialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGInsterstialViewController.h; sourceTree = "<group>"; };
+		4FE9AB3A1EC4873B0019C427 /* MTGInsterstialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGInsterstialViewController.m; sourceTree = "<group>"; };
+		4FE9AB3D1EC4873B0019C427 /* MTGRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGRewardVideoViewController.h; sourceTree = "<group>"; };
+		4FE9AB3E1EC4873B0019C427 /* MTGRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGRewardVideoViewController.m; sourceTree = "<group>"; };
+		5E25C70B3424DA8D0A628155 /* Pods_MTGSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTGSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDEACA8F20CDC3985859CDF /* Pods-MTGSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-MTGSDKDemo/Pods-MTGSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A0183F7C20C02CA100F4EC3D /* MTGInterActiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGInterActiveViewController.m; sourceTree = "<group>"; };
+		A0183F7D20C02CA200F4EC3D /* MTGInterActiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGInterActiveViewController.h; sourceTree = "<group>"; };
+		A0518B9920902E70006DA0E9 /* MTGInsterstialVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGInsterstialVideoViewController.m; sourceTree = "<group>"; };
+		A0518B9A20902E70006DA0E9 /* MTGInsterstialVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGInsterstialVideoViewController.h; sourceTree = "<group>"; };
+		AD17AF262358323900CD5A03 /* MTGBidBannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGBidBannerAdViewController.m; sourceTree = "<group>"; };
+		AD17AF272358323900CD5A03 /* MTGBidBannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGBidBannerAdViewController.h; sourceTree = "<group>"; };
+		AD6B4EF222F97A1A00E574AA /* MTGBannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGBannerAdViewController.m; sourceTree = "<group>"; };
+		AD6B4EF322F97A1B00E574AA /* MTGBannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGBannerAdViewController.h; sourceTree = "<group>"; };
+		EEEE5FAFF2C5D8BE1533E0D4 /* Pods-MTGSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTGSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-MTGSDKDemo/Pods-MTGSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F42FFB531BFB2A3C006231BB /* MTGSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTGSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42FFB571BFB2A3C006231BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F42FFB591BFB2A3C006231BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F42FFB5A1BFB2A3C006231BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F42FFB5C1BFB2A3C006231BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F42FFB5D1BFB2A3C006231BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F42FFB601BFB2A3C006231BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42FFB621BFB2A3C006231BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42FFB651BFB2A3C006231BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42FFB671BFB2A3C006231BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42FFB921BFC1F7D006231BB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42FFB501BFB2A3C006231BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E6B6B579ABA24E4EA47A8D /* Pods_MTGSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185EA0F01F04AAD100A69B2B /* MTGNativeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				185EA0F71F04AB8200A69B2B /* MTGNativeVideoViewController.h */,
+				185EA0F81F04AB8200A69B2B /* MTGNativeVideoViewController.m */,
+				49F9AB81229FC62A00EA7412 /* MTGBidNativeVideoViewController.h */,
+				49F9AB82229FC62A00EA7412 /* MTGBidNativeVideoViewController.m */,
+				1811526E1FC84D96000FFBF2 /* MTGNativeAdsViewCell.h */,
+				1811526D1FC84D96000FFBF2 /* MTGNativeAdsViewCell.m */,
+				1811526C1FC84D95000FFBF2 /* MTGNativeAdsViewCell.xib */,
+				185EA0F41F04AB8200A69B2B /* MTGNativeVideoCell.h */,
+				185EA0F51F04AB8200A69B2B /* MTGNativeVideoCell.m */,
+				185EA0F61F04AB8200A69B2B /* MTGNativeVideoCell.xib */,
+			);
+			name = MTGNativeVideo;
+			sourceTree = "<group>";
+		};
+		18D0BF1F1D894D020093E6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E25C70B3424DA8D0A628155 /* Pods_MTGSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8E8BFDDFB8208E20DF6691A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE5FAFF2C5D8BE1533E0D4 /* Pods-MTGSDKDemo.debug.xcconfig */,
+				9FDEACA8F20CDC3985859CDF /* Pods-MTGSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F42FFB4A1BFB2A3C006231BB = {
+			isa = PBXGroup;
+			children = (
+				F42FFB551BFB2A3C006231BB /* MTGSDKDemo */,
+				F42FFB541BFB2A3C006231BB /* Products */,
+				18D0BF1F1D894D020093E6D9 /* Frameworks */,
+				A8E8BFDDFB8208E20DF6691A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F42FFB541BFB2A3C006231BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42FFB531BFB2A3C006231BB /* MTGSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42FFB551BFB2A3C006231BB /* MTGSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F42FFB591BFB2A3C006231BB /* AppDelegate.h */,
+				F42FFB5A1BFB2A3C006231BB /* AppDelegate.m */,
+				189DC1BA209C3AA000A257AB /* MTGMainViewController.h */,
+				189DC1BB209C3AA000A257AB /* MTGMainViewController.m */,
+				F42FFB5C1BFB2A3C006231BB /* ViewController.h */,
+				F42FFB5D1BFB2A3C006231BB /* ViewController.m */,
+				49F9AB78229FC30500EA7412 /* BiddingViewController.h */,
+				49F9AB79229FC30500EA7412 /* BiddingViewController.m */,
+				189DC189209AECE900A257AB /* MTGGDPRViewController.h */,
+				189DC18A209AECE900A257AB /* MTGGDPRViewController.m */,
+				185EA0F01F04AAD100A69B2B /* MTGNativeVideo */,
+				4FE9AB391EC4873B0019C427 /* MTGInsterstialViewController.h */,
+				4FE9AB3A1EC4873B0019C427 /* MTGInsterstialViewController.m */,
+				A0518B9A20902E70006DA0E9 /* MTGInsterstialVideoViewController.h */,
+				A0518B9920902E70006DA0E9 /* MTGInsterstialVideoViewController.m */,
+				49F9AB7E229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.h */,
+				49F9AB7F229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.m */,
+				4FE9AB3D1EC4873B0019C427 /* MTGRewardVideoViewController.h */,
+				4FE9AB3E1EC4873B0019C427 /* MTGRewardVideoViewController.m */,
+				49F9AB7B229FC58E00EA7412 /* MTGBidRewardVideoViewController.h */,
+				49F9AB7C229FC58E00EA7412 /* MTGBidRewardVideoViewController.m */,
+				A0183F7D20C02CA200F4EC3D /* MTGInterActiveViewController.h */,
+				A0183F7C20C02CA100F4EC3D /* MTGInterActiveViewController.m */,
+				AD6B4EF322F97A1B00E574AA /* MTGBannerAdViewController.h */,
+				AD6B4EF222F97A1A00E574AA /* MTGBannerAdViewController.m */,
+				AD17AF272358323900CD5A03 /* MTGBidBannerAdViewController.h */,
+				AD17AF262358323900CD5A03 /* MTGBidBannerAdViewController.m */,
+				F42FFB561BFB2A3C006231BB /* Supporting Files */,
+			);
+			path = MTGSDKDemo;
+			sourceTree = "<group>";
+		};
+		F42FFB561BFB2A3C006231BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186C62981FBB045600A0A096 /* icon.png */,
+				18241BFC1F04AEF7000B393B /* MTGNativeVideo.storyboard */,
+				F42FFB5F1BFB2A3C006231BB /* Main.storyboard */,
+				F42FFB621BFB2A3C006231BB /* Assets.xcassets */,
+				F42FFB641BFB2A3C006231BB /* LaunchScreen.storyboard */,
+				F42FFB671BFB2A3C006231BB /* Info.plist */,
+				18241C021F04FF74000B393B /* star-lighted.png */,
+				F42FFB571BFB2A3C006231BB /* main.m */,
+				F42FFB921BFC1F7D006231BB /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42FFB521BFB2A3C006231BB /* MTGSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42FFB6A1BFB2A3C006231BB /* Build configuration list for PBXNativeTarget "MTGSDKDemo" */;
+			buildPhases = (
+				CAB934F171C3080834E60E35 /* [CP] Check Pods Manifest.lock */,
+				F42FFB4F1BFB2A3C006231BB /* Sources */,
+				F42FFB501BFB2A3C006231BB /* Frameworks */,
+				F42FFB511BFB2A3C006231BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTGSDKDemo;
+			productName = MVSDKDemo;
+			productReference = F42FFB531BFB2A3C006231BB /* MTGSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42FFB4B1BFB2A3C006231BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mobvista;
+				TargetAttributes = {
+					F42FFB521BFB2A3C006231BB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DJRJZKDWWH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F42FFB4E1BFB2A3C006231BB /* Build configuration list for PBXProject "MTGSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F42FFB4A1BFB2A3C006231BB;
+			productRefGroup = F42FFB541BFB2A3C006231BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42FFB521BFB2A3C006231BB /* MTGSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42FFB511BFB2A3C006231BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42FFB661BFB2A3C006231BB /* LaunchScreen.storyboard in Resources */,
+				18241BFE1F04AEF7000B393B /* MTGNativeVideo.storyboard in Resources */,
+				185EA0FC1F04AB8200A69B2B /* MTGNativeVideoCell.xib in Resources */,
+				F42FFB631BFB2A3C006231BB /* Assets.xcassets in Resources */,
+				186C62991FBB045600A0A096 /* icon.png in Resources */,
+				1811526F1FC84D96000FFBF2 /* MTGNativeAdsViewCell.xib in Resources */,
+				18241C041F04FF74000B393B /* star-lighted.png in Resources */,
+				F42FFB611BFB2A3C006231BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAB934F171C3080834E60E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTGSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42FFB4F1BFB2A3C006231BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F9AB83229FC62A00EA7412 /* MTGBidNativeVideoViewController.m in Sources */,
+				189DC18B209AECE900A257AB /* MTGGDPRViewController.m in Sources */,
+				4FE9AB401EC4873B0019C427 /* MTGInsterstialViewController.m in Sources */,
+				AD6B4EF422F97A1B00E574AA /* MTGBannerAdViewController.m in Sources */,
+				AD17AF282358323900CD5A03 /* MTGBidBannerAdViewController.m in Sources */,
+				A0183F7E20C02CA200F4EC3D /* MTGInterActiveViewController.m in Sources */,
+				F42FFB5E1BFB2A3C006231BB /* ViewController.m in Sources */,
+				F42FFB5B1BFB2A3C006231BB /* AppDelegate.m in Sources */,
+				A0518B9B20902E70006DA0E9 /* MTGInsterstialVideoViewController.m in Sources */,
+				185EA0FB1F04AB8200A69B2B /* MTGNativeVideoCell.m in Sources */,
+				F42FFB581BFB2A3C006231BB /* main.m in Sources */,
+				49F9AB7D229FC58E00EA7412 /* MTGBidRewardVideoViewController.m in Sources */,
+				49F9AB7A229FC30600EA7412 /* BiddingViewController.m in Sources */,
+				189DC1BC209C3AA000A257AB /* MTGMainViewController.m in Sources */,
+				185EA0FD1F04AB8200A69B2B /* MTGNativeVideoViewController.m in Sources */,
+				49F9AB80229FC5A300EA7412 /* MTGBidInsterstialVideoViewController.m in Sources */,
+				181152701FC84D96000FFBF2 /* MTGNativeAdsViewCell.m in Sources */,
+				4FE9AB421EC4873B0019C427 /* MTGRewardVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18241BFC1F04AEF7000B393B /* MTGNativeVideo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18241BFD1F04AEF7000B393B /* Base */,
+			);
+			name = MTGNativeVideo.storyboard;
+			sourceTree = "<group>";
+		};
+		F42FFB5F1BFB2A3C006231BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42FFB601BFB2A3C006231BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42FFB641BFB2A3C006231BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42FFB651BFB2A3C006231BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42FFB681BFB2A3C006231BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42FFB691BFB2A3C006231BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42FFB6B1BFB2A3C006231BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEE5FAFF2C5D8BE1533E0D4 /* Pods-MTGSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = MTGSDKDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MTGSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 5.8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobvista.sdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(PODS_ROOT)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		F42FFB6C1BFB2A3C006231BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDEACA8F20CDC3985859CDF /* Pods-MTGSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = MTGSDKDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MTGSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 5.8.4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobvista.sdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/** $(PODS_ROOT)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42FFB4E1BFB2A3C006231BB /* Build configuration list for PBXProject "MTGSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42FFB681BFB2A3C006231BB /* Debug */,
+				F42FFB691BFB2A3C006231BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42FFB6A1BFB2A3C006231BB /* Build configuration list for PBXNativeTarget "MTGSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42FFB6B1BFB2A3C006231BB /* Debug */,
+				F42FFB6C1BFB2A3C006231BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42FFB4B1BFB2A3C006231BB /* Project object */;
+}

@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'MTGSDKDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+    pod 'FBAudienceNetwork'
+    pod 'MintegralAdSDK/NativeAd'
+    pod 'MintegralAdSDK/BidNativeAd'
+    pod 'MintegralAdSDK/RewardVideoAd'
+    pod 'MintegralAdSDK/InterstitialVideoAd'
+    pod 'MintegralAdSDK/InterstitialAd'
+    pod 'MintegralAdSDK/InterActiveAd'
+    pod 'MintegralAdSDK/BannerAd'
+end

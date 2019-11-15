@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  MTGSDKDemo
+//
+//  Created by Jomy on 15/11/18.
+//  Copyright © 2015年 Mobvista. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define customWhiteColor [UIColor whiteColor]
+#define customGray1Color ColorFromRGB(234, 234, 234)
+#define customGray2Color ColorFromRGB(224, 224, 224)
+#define customGray3Color ColorFromRGB(212, 212, 221)
+#define customGray4Color ColorFromRGB(197, 197, 209)
+#define customGray5Color ColorFromRGB(153, 153, 153)
+#define customGray6Color ColorFromRGB(128, 128, 128)
+#define customGray7Color ColorFromRGB(102, 102, 102)
+#define customGray8Color ColorFromRGB(77, 77, 77)
+#define customGray9Color ColorFromRGB(51, 51, 51)
+#define customGray10Color ColorFromRGB(26, 26, 26)
+#define customBlackColor [UIColor blackColor]
+#define customClearColor [UIColor clearColor]
+#define	ColorFromRGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define ColorFromRGBALPHA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define viewWidth self.view.frame.size.width
+#define viewHeight self.view.frame.size.height
+#define logStringHeader @"    Log: "
+#define buttonHeight self.view.frame.size.height/14
+
+#endif /* PrefixHeader_pch */

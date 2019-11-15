@@ -1,0 +1,37 @@
+PODS:
+  - FBAudienceNetwork (4.99.3)
+  - MintegralAdSDK/BannerAd (5.8.4.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNativeAd (5.8.4.0)
+  - MintegralAdSDK/InterActiveAd (5.8.4.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/InterstitialAd (5.8.4.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/InterstitialVideoAd (5.8.4.0):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (5.8.4.0)
+  - MintegralAdSDK/RewardVideoAd (5.8.4.0):
+    - MintegralAdSDK/NativeAd
+
+DEPENDENCIES:
+  - FBAudienceNetwork
+  - MintegralAdSDK/BannerAd
+  - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/InterActiveAd
+  - MintegralAdSDK/InterstitialAd
+  - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd
+
+SPEC REPOS:
+  trunk:
+    - FBAudienceNetwork
+    - MintegralAdSDK
+
+SPEC CHECKSUMS:
+  FBAudienceNetwork: 4db9db11614ea1a165c05233183b7fdf741db55e
+  MintegralAdSDK: f26898e40a1676b53508ea4aa145ce70a897fc46
+
+PODFILE CHECKSUM: a92f811526e32460953bf742ec5e1c83830e2729
+
+COCOAPODS: 1.8.3
